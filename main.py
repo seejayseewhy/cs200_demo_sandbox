@@ -23,6 +23,8 @@ def func2(data):
         elif choice == '4':
             print('Goodbye')
             return
+def func3():
+    print("I would like to make some merge conflicts")
 
 def main():
     print("Hello, World!")
