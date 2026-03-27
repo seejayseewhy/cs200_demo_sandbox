@@ -26,6 +26,8 @@ def func2(data):
 def func3():
     print("I would like to make some merge conflicts")
     print("I am not sure if this is going to conflict or not")
+    print("I would like to make some merge conflicts.")
+    print("yes, me too")
 
 def main():
     print("Hello, World!")
