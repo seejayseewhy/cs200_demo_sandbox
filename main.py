@@ -7,6 +7,7 @@ def func1():
         x = int(input('num:'))
     return lst
 
+
 def func2(data):
     print('Here is the data:')
     print(data)
@@ -15,7 +16,7 @@ def func2(data):
     while True:
         choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if choice == '1':
-            print('The sum is',sum(data))
+            print('The sum is ', sum(data))
         elif choice == '2':
             print('Not supported yet')
         elif choice == '3':
@@ -23,6 +24,8 @@ def func2(data):
         elif choice == '4':
             print('Goodbye')
             return
+
+
 def func3():
     print("I would like to make some merge conflicts")
     print("I am not sure if this is going to conflict or not")
@@ -30,10 +33,20 @@ def func3():
     print("yes, me too")
     print("perhaps things have changed")
 
+
+def foo(x, y):
+    return x*y + 1
+
+
+def sum2(x):
+    return (x*(x + 1))/2
+
+
 def main():
     print("Hello, World!")
     data = func1()
     func2(data)
+
 
 if __name__ == "__main__":
     main()
